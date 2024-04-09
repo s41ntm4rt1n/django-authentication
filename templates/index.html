@@ -1,0 +1,254 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %} 
+
+
+  <div class="yx-nhc yx-nhy js-drawer js-drawer--modal" id="dr-nav-id">
+    <div class="yx-nhd" role="alertdialog" aria-labelledby="dr-nav-title">
+      <div class="yx-nhv flex yx-r_ js-drawer__body">
+        <header class="yx-nmg yx-lf"><h4 id="dr-nav-title">Menu</h4></header>
+        <nav class="dr-nav yx-uq" aria-label="Main">
+          <ul>
+            <li>
+              <a class="yx-nmy" href="index.html"
+                ><span>All</span> <span>106</span></a
+              >
+            </li>
+            <li>
+              <a class="yx-nmy" href="category.html"
+                ><span>News</span> <span>35</span></a
+              >
+            </li>
+            <li>
+              <a class="yx-nmy" href="category.html"
+                ><span>Creative Industry</span> <span>17</span></a
+              >
+            </li>
+            <li>
+              <a class="yx-nmy" href="category.html"
+                ><span>Video</span> <span>12</span></a
+              >
+            </li>
+            <li>
+              <a class="yx-nmy" href="category.html"
+                ><span>Photography</span> <span>24</span></a
+              >
+            </li>
+            <li>
+              <a class="yx-nmy" href="category.html"
+                ><span>Tutorials</span> <span>18</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <footer class="yx-uq yx-sl">
+          <div class="yx-sd">
+            <nav>
+              <ul class="text-sm yx-twd flex yx-rk gap-xs">
+                <li>Pages:</li>
+                <li><a href="index.html">Blog v1</a></li>
+                <li><a href="blog-v2.html">Blog v2</a></li>
+                <li><a href="blog-v3.html">Blog v3</a></li>
+                <li><a href="blog-v4.html">Blog v4</a></li>
+                <li><a href="blog-v5.html">Blog v5</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="yx-nvo yx-nvu">
+            <input
+              class="form-control yx-vf yx-mf"
+              type="search"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <button class="yx-nvf">
+              <svg class="icon" viewBox="0 0 24 24">
+                <title>Submit</title>
+                <g
+                  stroke-linecap="square"
+                  stroke-linejoin="miter"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-miterlimit="10"
+                >
+                  <line x1="22" y1="22" x2="15.656" y2="15.656"></line>
+                  <circle cx="10" cy="10" r="8"></circle>
+                </g>
+              </svg>
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <main class="yx-ngc yx-ad yx-sb">
+    <div class="yx-t max-width-adaptive-lg">
+      <div class="yx-n gap-md">
+        <article class="story-v2 yx-ncd yx-aq yx-yb yx-yx yx-yj">
+          <div class="yx-n yx-tps">
+            <div class="yx-ne">
+              <div class="yx-ncl text-sm yx-sv">
+                <p>
+                  By <a href="author.html" rel="author">Olivia Gribben</a>
+                  <span role="separator"></span>
+                  <time datetime="2020-05-10">May 10, 2020</time>
+                  <span role="separator"></span> <a href="#0">5 comments</a>
+                </p>
+              </div>
+              <div class="text-component">
+                <h2 class="yx-ncc yx-twx">
+                  <a href="article-v2.html"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit</a
+                  >
+                </h2>
+                <p class="yx-nch">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Unde est corrupti, provident alias ipsum accusamus maiores
+                  labore eius, sunt tenetur nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a href="article-v2.html" class="yx-ncp yx-ss"
+            ><figure>
+              <img
+                src="{% static 'assets/img/article-preview-v2-img-1.jpg' %}"
+                alt="Image description"
+              /></figure
+          ></a>
+        </article>
+        <article class="story-v2 yx-l_ yx-yb yx-yx yx-yj yx-tj yx-nq">
+          <div class="yx-ncl text-sm yx-sv">
+            <p>
+              By <a href="author.html" rel="author">James Powell</a>
+              <span role="separator"></span>
+              <time datetime="2020-05-20">May 20, 2020</time>
+              <span role="separator"></span> <a href="#0">no comments</a>
+            </p>
+          </div>
+          <div class="text-component">
+            <h2 class="yx-ncc">
+              <a href="article-v2.html"
+                >Lorem ipsum dolor sit amet consectetur</a
+              >
+            </h2>
+            <p class="yx-nch">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              saepe voluptate similique vel et nihil numquam.
+            </p>
+          </div>
+        </article>
+        <article class="story-v2 yx-l_ yx-yb yx-yx yx-yj yx-tj yx-nq">
+          <div class="yx-ncl text-sm yx-sv">
+            <p>
+              By <a href="author.html" rel="author">James Powell</a>
+              <span role="separator"></span>
+              <time datetime="2020-05-10">May 10, 2020</time>
+              <span role="separator"></span> <a href="#0">1 comment</a>
+            </p>
+          </div>
+          <div class="text-component">
+            <h2 class="yx-ncc">
+              <a href="article-v2.html"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit</a
+              >
+            </h2>
+            <p class="yx-nch">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis iusto voluptas quisquam.
+            </p>
+          </div>
+        </article>
+        <article class="story-v2 yx-l_ yx-yb yx-yx yx-yj yx-tj yx-nq">
+          <div class="yx-ncl text-sm yx-sv">
+            <p>
+              By <a href="author.html" rel="author">Olivia Gribben</a>
+              <span role="separator"></span>
+              <time datetime="2020-04-03">April 3, 2020</time>
+              <span role="separator"></span> <a href="#0">5 comments</a>
+            </p>
+          </div>
+          <div class="text-component">
+            <h2 class="yx-ncc">
+              <a href="article-v2.html">Lorem ipsum dolor sit amet</a>
+            </h2>
+            <p class="yx-nch">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Provident magni aut dicta neque nulla aspernatur quos, nemo at
+              fugiat laudantium.
+            </p>
+          </div>
+        </article>
+      </div>
+      <nav class="yx-ngh yx-so" aria-label="Pagination">
+        <ol class="yx-nds flex yx-rk gap-xxxs yx-iu">
+          <li>
+            <a
+              href="#0"
+              class="yx-ndu yx-ndl"
+              aria-label="Go to previous page"
+              ><svg class="icon yx-sq" aria-hidden="true" viewBox="0 0 16 16">
+                <title>Previous</title>
+                <g stroke-width="1" stroke="currentColor">
+                  <polyline
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    points="9.5,3.5 5,8 9.5,12.5 "
+                  ></polyline>
+                </g>
+              </svg>
+              <span>Prev</span></a
+            >
+          </li>
+          <li class="yx-thm">
+            <a href="#0" class="yx-ndu" aria-label="Go to page 1">1</a>
+          </li>
+          <li class="yx-thm">
+            <a href="#0" class="yx-ndu" aria-label="Go to page 2">2</a>
+          </li>
+          <li class="yx-thm">
+            <a
+              href="#0"
+              class="yx-ndu yx-nda"
+              aria-label="Current Page, page 3"
+              aria-current="page"
+              >3</a
+            >
+          </li>
+          <li class="yx-thm">
+            <a href="#0" class="yx-ndu" aria-label="Go to page 4">4</a>
+          </li>
+          <li class="yx-thm" aria-hidden="true">
+            <span class="yx-ndu yx-ndf">...</span>
+          </li>
+          <li class="yx-thm">
+            <a href="#0" class="yx-ndu" aria-label="Go to page 20">20</a>
+          </li>
+          <li>
+            <a href="#0" class="yx-ndu" aria-label="Go to next page"
+              ><span>Next</span>
+              <svg class="icon yx-ol" aria-hidden="true" viewBox="0 0 16 16">
+                <title>Next</title>
+                <g stroke-width="1" stroke="currentColor">
+                  <polyline
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                    points="6.5,3.5 11,8 6.5,12.5 "
+                  ></polyline>
+                </g></svg></a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </main>
+  {% endblock %}
